@@ -17,11 +17,12 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-gray-200; /* Replace 'bg-gray-200' with your desired color */
 }
+
+.mobile-container {
+  max-width: 640px; /* or any other mobile-friendly width */
+  margin: 0 auto; /* this centers your container */
+  padding: 0 20px; /* optional, for inner spacing */
+}
+
